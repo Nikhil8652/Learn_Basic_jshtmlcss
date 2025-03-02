@@ -1,0 +1,13 @@
+.Add-button {
+
+    background-color: rgb(112, 211, 127);
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;   
+  }
+
+  .wishlist {
+    padding: 5px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }

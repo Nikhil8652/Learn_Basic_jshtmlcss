@@ -1,0 +1,18 @@
+.Addtobag{
+    background-color: rgb(136, 236, 142);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+
+}
+.wishlist {
+    border: solid black 2px;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+.sale-item{
+    background-color: rgb(136, 236, 142);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+}
