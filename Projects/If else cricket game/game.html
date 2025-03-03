@@ -16,7 +16,7 @@
 
     <button
       onclick="
-      const userChoiceMsg = 'You have choosen bat';
+     // const userChoiceMsg = 'You have choosen bat';
     // This will generate random number between 0 and 3
     let randomNumber= Math.random()*3;
     let computerChoice;
@@ -33,7 +33,7 @@
         computerChoice='Stump';
         //console.log('computerChoice is Stump');
     }
-    const computerChoiceMsg=`Computer choice is ${computerChoice}`;
+    // const computerChoiceMsg=`Computer choice is ${computerChoice}`;
 
 
     let resultMsg;
@@ -42,17 +42,54 @@
     }else if(computerChoice === 'Bat'){
         resultMsg = `It's a tie`;
     }else if(computerChoice === 'Stump'){
-        resultMsg = 'Computer won'
+        resultMsg = 'Computer has won'
     }
 
-    alert(`${userChoiceMsg} ${computerChoiceMsg} ${resultMsg}`);
+    alert(`You have choosen Bat.Computer choice is ${computerChoice} and ${resultMsg}`);
 
     "
     >
       Bat
     </button>
-    <button>Ball</button>
+
+    <button
+      onclick="
+     // const userChoiceMsg = 'You have choosen bat';
+    // This will generate random number between 0 and 3
+    randomNumber= Math.random()*3;
+  
+   // console.log(randomNumber);
+    if(randomNumber>0&&randomNumber<=1){
+        computerChoice='Bat';
+        //console.log('computer choice is Bat');
+    }
+    else if(randomNumber>1&&randomNumber<=2){
+        computerChoice='Ball';
+        //console.log('computer choice is Ball');
+    }
+    else{
+        computerChoice='Stump';
+        //console.log('computerChoice is Stump');
+    }
+    // const computerChoiceMsg=`Computer choice is ${computerChoice}`;
+
+
+    
+    if(computerChoice === 'Ball'){
+        resultMsg =`It's a tie`;
+    }else if(computerChoice === 'Bat'){
+        resultMsg =  'Computer has won'
+    }else if(computerChoice === 'Stump'){
+        resultMsg = 'User has won';
+    }
+
+    alert(`You have choosen Ball.Computer choice is ${computerChoice} and ${resultMsg}`);
+
+    "
+    >
+      Ball
+    </button>
     <button>Stump</button>
-    <script></script>
+    <!-- <script></script> -->
   </body>
 </html>
