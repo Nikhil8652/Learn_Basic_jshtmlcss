@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
       .video-title {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
@@ -18,7 +24,106 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         color: rgb(96, 96, 96);
-        margin-top: 0;
+
+        margin-bottom: 20px;
+      }
+
+      .video-author {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(96, 96, 96);
+        font-size: 14px;
+
+        margin-bottom: 20px;
+      }
+
+      .video-description {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 280px;
+        line-height: 22px;
+        margin-bottom: 100px;
+      }
+
+      .apple-text {
+        margin-bottom: 50px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+
+      .shop-link {
+        cursor: pointer;
+      }
+
+      .shop-link:hover {
+        text-decoration: underline;
+      }
+
+      .tohoma {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+        margin-bottom: 20px;
+      }
+
+      .ex2 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 6px;
+      }
+
+      .ex2-italic {
+        font-size: 20px;
+        font-style: italic;
+        color: rgb(255, 76, 60);
+        margin-bottom: 30px;
+      }
+
+      .verdana {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 21px;
+        margin-bottom: 5px;
+      }
+
+      .pro {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 19px;
+        color: gray;
+      }
+
+      .dev {
+        margin-top: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 250px;
+        font-size: 14px;
+      }
+      .get-started {
+        margin-top: 20px;
+        background-color: rgb(1, 104, 1);
+        border: none;
+        height: 36px;
+        width: 101px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: white;
+      }
+
+      .shop {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .help {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 99px;
+        font-size: 18px;
+      }
+
+      .learn-more {
+        margin-left: 196px;
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(0, 76, 255);
       }
     </style>
   </head>
@@ -29,6 +134,39 @@
 
     <p class="video-stats">3.4M views &#183; 6 months ago</p>
 
-    <p>Marques Brownlee &#10003;</p>
+    <p class="video-author">Marques Brownlee &#10003;</p>
+
+    <p class="video-description">
+      Talkin tech and AI on the heels of Google I/O. ALso a daily driver phone
+      reveal from Google's CEO. Shoutout to Sunder!
+    </p>
+
+    <p class="apple-text">
+      Shop early for the best selection of holiday favourites.
+      <span class="shop-link">Shop now &#62;</span>
+    </p>
+
+    <p>
+      Shop early for the
+      <strong class="">best selection </strong> of <u>holiday</u> favourites.
+      <span>Shop now</span>
+    </p>
+
+    <!-- Practice -->
+
+    <h1 class="tohoma">This is Tohoma Font</h1>
+    <h1 class="ex2">Biggest Deals of the Years!</h1>
+    <p class="ex2-italic">Sales end Tuesday</p>
+    <h2 class="verdana">HTML CSS Course</h2>
+    <p class="pro">Beginner to Pro</p>
+
+    <p class="dev">
+      In this course, we'll learn the skills you need to become a developer.
+    </p>
+    <button class="get-started">Get Started</button>
+
+    <h1 class="shop">Shopping for your business?</h1>
+    <p class="help">See how Apple at Work can help.</p>
+    <p class="learn-more">Learn more &#62;</p>
   </body>
 </html>
