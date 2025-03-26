@@ -4,10 +4,82 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nested Div</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .main {
+        font-family: Roboto;
+        margin: 40px;
+        padding: 0;
+        border: 1px solid;
+        width: 531px;
+        height: 140px;
+        position: relative;
+      }
+
+      .pic {
+        /* display: inline-block;
+        /* margin-top: 25px; */
+        /* margin-left: 20px; */
+        /* border/: 1px solid;
+
+        /* padding-top: 10px;
+        justify-content: center; */
+        display: inline-block;
+        align-items: center; /* Centers the content vertically */
+        justify-content: center; /* Centers content horizontally */
+        border: 1px solid;
+        height: 122px;
+        width: 129px;
+        padding-top: 18px;
+      }
+
+      .cat {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 85px;
+        margin-left: 14px;
+      }
+
+      .layer {
+        display: inline-block;
+        border: 1px solid;
+        height: 138px;
+      }
+
+      .follow {
+        display: inline-block;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+
+        border: 1px solid;
+        position: absolute;
+        top: 10px; /* Moves it up */
+        right: 10px; /* Keeps it aligned */
+      }
+    </style>
   </head>
   <body>
     <div class="main">
-      
+      <div class="pic">
+        <img src="cat.jpg" class="cat" alt="cat" />
+      </div>
+
+      <div class="layer">
+        <p class="oliver">Oliver</p>
+        <p class="the-cat">the cat</p>
+        <p class="Popular">Popular</p>
+      </div>
+
+      <div class="follow">
+        <button class="first">Follow</button>
+      </div>
     </div>
   </body>
 </html>
